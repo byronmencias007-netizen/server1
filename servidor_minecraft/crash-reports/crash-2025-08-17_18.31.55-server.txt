@@ -1,0 +1,82 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  wings (wings-1.1.6-1.12.2.jar)
+  SpartanWeaponry-MixinLoader (SpartanWeaponry-1.12.2-1.6.1.jar)
+  iceandfire (iceandfire-1.9.1-1.12.2.jar)
+  TLSkinCapeHookLoader (tlskincape_1.12.2-1.4.jar)
+Contact their authors BEFORE contacting forge
+
+// Surprise! Haha. Well, this is awkward.
+
+Time: 8/17/25 6:31 PM
+Description: Exception in server tick loop
+
+Missing Mods:
+	unknown : need [1.12.2-2.5.2,): have missing
+
+net.minecraftforge.fml.common.MissingModsException: Mod zawa (Zoo and Wild Animals Mod: Rebuilt) requires [bookworm@[1.12.2-2.5.2,)]
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:266)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:572)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 6.8.0-1030-azure
+	Java Version: 1.8.0_462, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Private Build
+	Memory: 2030351600 bytes (1936 MB) / 2615148544 bytes (2494 MB) up to 15271460864 bytes (14564 MB)
+	JVM Flags: 2 total; -Xms2G -Xmx16G
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2860 20 mods loaded, 18 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                         | Version      | Source                                        | Signature                                |
+	|:----- |:-------------------------- |:------------ |:--------------------------------------------- |:---------------------------------------- |
+	| L     | minecraft                  | 1.12.2       | minecraft.jar                                 | None                                     |
+	| L     | mcp                        | 9.42         | minecraft.jar                                 | None                                     |
+	| L     | FML                        | 8.0.99.99    | forge-1.12.2-14.23.5.2860.jar                 | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| L     | forge                      | 14.23.5.2860 | forge-1.12.2-14.23.5.2860.jar                 | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| L     | iceandfire                 | 1.9.1        | iceandfire-1.9.1-1.12.2.jar                   | None                                     |
+	| L     | mowziesmobs                | 1.5.8        | mowziesmobs_1.12.2_1.5.8.jar                  | None                                     |
+	| L     | ruins                      | 17.2         | Ruins-1.12.2.jar                              | None                                     |
+	| L     | spartanshields             | 1.5.5        | SpartanShields-1.12.2-1.5.5.jar               | None                                     |
+	| L     | spartanweaponry            | 1.6.1        | SpartanWeaponry-1.12.2-1.6.1.jar              | None                                     |
+	| L     | tlauncher_custom_cape_skin | 1.4          | tlskincape_1.12.2-1.4.jar                     | None                                     |
+	| L     | tombstone                  | 4.6.2        | tombstone-4.6.2-1.12.2.jar                    | None                                     |
+	| L     | twilightforest             | 3.11.1021    | twilightforest-1.12.2-3.11.1021-universal.jar | None                                     |
+	| L     | uteamcore                  | 2.2.5.375    | u_team_core-forge-1.12.2-2.2.5.375.jar        | None                                     |
+	| L     | usefulbackpacks            | 1.5.4.85     | useful_backpacks-1.12.2-1.5.4.85.jar          | None                                     |
+	| L     | mowzies_wings              | 1.0.0        | wings-1.1.6-1.12.2.jar                        | None                                     |
+	| UD    | bauble_wings               | 1.0.0        | wings-1.1.6-1.12.2.jar                        | None                                     |
+	| UD    | mobends_wings              | 1.0.0        | wings-1.1.6-1.12.2.jar                        | None                                     |
+	| L     | wings                      | 1.1.6        | wings-1.1.6-1.12.2.jar                        | None                                     |
+	| L     | zawa                       | 1.12.2-2.1.3 | zawa-1.12.2-2.1.3.jar                         | None                                     |
+	| L     | llibrary                   | 1.7.20       | llibrary-1.7.20-1.12.2.jar                    | None                                     |
+
+	Loaded coremods (and transformers): 
+llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+  net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+wings (wings-1.1.6-1.12.2.jar)
+  me.paulf.wings.server.asm.WingsRuntimePatcher
+  me.paulf.wings.server.asm.mobends.WingsMoBendsRuntimePatcher
+SpartanWeaponry-MixinLoader (SpartanWeaponry-1.12.2-1.6.1.jar)
+  
+iceandfire (iceandfire-1.9.1-1.12.2.jar)
+  com.github.alexthe666.iceandfire.patcher.IceAndFireRuntimePatcher
+TLSkinCapeHookLoader (tlskincape_1.12.2-1.4.jar)
+  gloomyfolken.hooklib.minecraft.PrimaryClassTransformer
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)
