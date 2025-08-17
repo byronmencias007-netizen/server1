@@ -1,17 +1,5 @@
 {
-  "minecraft:recipes/building_blocks/magenta_wool": {
-    "criteria": {
-      "has_white_wool": "2025-08-17 17:58:35 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/light_blue_wool": {
-    "criteria": {
-      "has_white_wool": "2025-08-17 17:58:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/orange_wool": {
     "criteria": {
       "has_white_wool": "2025-08-17 17:58:35 +0000"
     },
@@ -23,9 +11,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-08-17 19:01:00 +0000"
+    },
+    "done": true
+  },
+  "tombstone:tutorial/root": {
+    "criteria": {
+      "auto": "2025-08-17 19:01:00 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lime_wool": {
     "criteria": {
       "has_white_wool": "2025-08-17 17:58:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_banner": {
+    "criteria": {
+      "has_light_gray_wool": "2025-08-17 19:01:00 +0000"
     },
     "done": true
   },
@@ -41,25 +47,104 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/painting": {
-    "criteria": {
-      "has_wool": "2025-08-17 17:58:35 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/black_wool": {
     "criteria": {
       "has_white_wool": "2025-08-17 17:58:35 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/light_gray_wool": {
+  "minecraft:recipes/building_blocks/blue_wool": {
     "criteria": {
       "has_white_wool": "2025-08-17 17:58:35 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/blue_wool": {
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2025-08-17 17:58:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_wool": {
+    "criteria": {
+      "has_white_wool": "2025-08-17 17:58:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2025-08-17 17:58:35 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/dragonsteel_weapon": {
+    "criteria": {
+      "fire_sword": "2025-08-17 19:01:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_wool": {
+    "criteria": {
+      "has_white_wool": "2025-08-17 17:58:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest_hills": "2025-08-17 18:00:42 +0000",
+      "plains": "2025-08-17 17:58:12 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/magenta_wool": {
+    "criteria": {
+      "has_white_wool": "2025-08-17 17:58:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone": {
+    "criteria": {
+      "has_bone": "2025-08-17 19:01:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_wool": {
+    "criteria": {
+      "has_white_wool": "2025-08-17 17:58:35 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/root": {
+    "criteria": {
+      "tick": "2025-08-17 19:01:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-08-17 19:01:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed": {
+    "criteria": {
+      "has_light_gray_wool": "2025-08-17 19:01:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_carpet": {
+    "criteria": {
+      "has_light_gray_wool": "2025-08-17 19:01:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2025-08-17 17:58:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_wool": {
     "criteria": {
       "has_white_wool": "2025-08-17 17:58:35 +0000"
     },
@@ -77,19 +162,13 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/white_bed": {
+  "minecraft:recipes/brewing/fermented_spider_eye": {
     "criteria": {
-      "has_white_wool": "2025-08-17 17:58:35 +0000"
+      "has_spider_eye": "2025-08-17 19:01:00 +0000"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/cyan_wool": {
-    "criteria": {
-      "has_white_wool": "2025-08-17 17:58:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/green_wool": {
     "criteria": {
       "has_white_wool": "2025-08-17 17:58:35 +0000"
     },
@@ -107,23 +186,10 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/white_carpet": {
+  "mowziesmobs:root": {
     "criteria": {
-      "has_white_wool": "2025-08-17 17:58:35 +0000"
+      "custom_test_name": "2025-08-17 19:01:00 +0000"
     },
     "done": true
-  },
-  "minecraft:recipes/building_blocks/brown_wool": {
-    "criteria": {
-      "has_white_wool": "2025-08-17 17:58:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "forest_hills": "2025-08-17 18:00:42 +0000",
-      "plains": "2025-08-17 17:58:12 +0000"
-    },
-    "done": false
   }
 }

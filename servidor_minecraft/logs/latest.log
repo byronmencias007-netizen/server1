@@ -1,226 +1,191 @@
-[18:42:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[18:42:32] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[18:42:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[18:42:32] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
-[18:42:32] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_462, running on Linux:amd64:6.8.0-1030-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[18:42:32] [main/INFO] [FML]: Searching /workspaces/server1/servidor_minecraft/./mods for mods
-[18:42:32] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in iceandfire-1.9.1-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[18:42:32] [main/WARN] [FML]: The coremod iceandfire (com.github.alexthe666.iceandfire.asm.IceAndFirePlugin) is not signed!
-[18:42:32] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from SpartanWeaponry-1.12.2-1.6.1.jar
-[18:42:32] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in wings-1.1.6-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[18:42:32] [main/WARN] [FML]: The coremod wings (me.paulf.wings.server.asm.plugin.WingsLoadingPlugin) is not signed!
-[18:42:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[18:42:32] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
-[18:42:32] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/server1/servidor_minecraft/./mods/SpartanWeaponry-1.12.2-1.6.1.jar Service=LaunchWrapper Env=SERVER
-[18:42:32] [main/WARN] [FML]: The coremod SpartanWeaponry-MixinLoader (com.oblivioussp.spartanweaponry.mixin.MixinLoader) is not signed!
-[18:42:32] [main/INFO] [mixin]: Compatibility level set to JAVA_8
-[18:42:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[18:42:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[18:42:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[18:42:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[18:42:34] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[18:42:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[18:42:34] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
-[18:42:34] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@2caf6912
-[18:42:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[18:42:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[18:42:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[18:42:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[18:42:34] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[18:42:34] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[18:42:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[18:42:34] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[18:42:34] [main/WARN] [LLibrary Core]: Failed to fetch hierarchy node for net.minecraft.nbt.NBTTagList. This may cause patch issues
-[18:42:34] [main/WARN] [LLibrary Core]: Failed to fetch hierarchy node for net.minecraft.entity.player.EntityPlayerMP. This may cause patch issues
-[18:42:34] [main/WARN] [LLibrary Core]: Failed to fetch hierarchy node for net.minecraft.entity.EntityLivingBase. This may cause patch issues
-[18:42:34] [main/WARN] [LLibrary Core]: Failed to fetch hierarchy node for net.minecraft.entity.Entity. This may cause patch issues
-[18:42:35] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[18:42:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[18:42:37] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
-[18:42:37] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[18:42:37] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[18:42:38] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[18:42:38] [Server thread/INFO] [FML]: Searching /workspaces/server1/servidor_minecraft/./mods for mods
-[18:42:39] [Server thread/INFO] [FML]: Disabling mod torohealthmod it is client side only.
-[18:42:39] [Server thread/WARN] [FML]: Mod wings is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.6
-[18:42:39] [Server thread/INFO] [FML]: Forge Mod Loader has identified 20 mods to load
-[18:42:39] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[18:42:39] [Server thread/WARN] [FML]: Missing English translation for ruins: assets/ruins/lang/en_us.lang
-[18:42:39] [Server thread/WARN] [FML]: Missing English translation for mowzies_wings: assets/mowzies_wings/lang/en_us.lang
-[18:42:39] [Server thread/WARN] [FML]: Mod bauble_wings has been disabled through configuration
-[18:42:39] [Server thread/WARN] [FML]: Mod mobends_wings has been disabled through configuration
-[18:42:39] [Server thread/INFO] [FML]: FML has found a non-mod file torohealth-1.12.2-11.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
-[18:42:39] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bookworm, iceandfire, mowziesmobs, ruins, spartanshields, spartanweaponry, tombstone, twilightforest, uteamcore, usefulbackpacks, mowzies_wings, wings, zawa, llibrary] at CLIENT
-[18:42:39] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bookworm, iceandfire, mowziesmobs, ruins, spartanshields, spartanweaponry, tombstone, twilightforest, uteamcore, usefulbackpacks, mowzies_wings, wings, zawa, llibrary] at SERVER
-[18:42:40] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[18:42:41] [Server thread/INFO] [FML]: Found 2046 ObjectHolder annotations
-[18:42:41] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[18:42:41] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[18:42:41] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[18:42:41] [Forge Version Check/INFO] [forge.VersionCheck]: [usefulbackpacks] Starting version check at https://api.u-team.info/update/usefulbackpacks.json
-[18:42:41] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `lectern`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[18:42:41] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `podium`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[18:42:41] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `egginice`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[18:42:41] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pixie_house`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[18:42:41] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `jar`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[18:42:41] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dread_portal`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[18:42:41] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dread_spawner`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[18:42:41] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dummygorgonheadidle`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[18:42:41] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dummygorgonheadactive`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[18:42:41] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `myrmexcocoon`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[18:42:41] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dragonforge`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[18:42:41] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dragonforgeinput`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[18:42:41] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dragonforgebrick`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[18:42:41] [Server thread/INFO] [Ice And Fire]: A raven flies from the north to the sea
-[18:42:41] [Server thread/INFO] [Ice And Fire]: A dragon whispers her name in the east
-[18:42:41] [Forge Version Check/INFO] [forge.VersionCheck]: [usefulbackpacks] Found status: UP_TO_DATE Target: null
-[18:42:41] [Forge Version Check/INFO] [forge.VersionCheck]: [zawa] Starting version check at https://raw.githubusercontent.com/ZAWAMod/ZAWAMod.github.io/master/1122update.json
-[18:42:41] [Server thread/INFO] [Spartan Shields]: Starting up Spartan Shields!
-[18:42:41] [Server thread/INFO] [Spartan Weaponry]: Starting up Spartan Weaponry!
-[18:42:41] [Server thread/INFO] [Spartan Weaponry]: API: Loaded internal method handler. API functionality should work now!
-[18:42:41] [Server thread/INFO] [Spartan Weaponry]: Defined config version: 2.0 - Loaded config version: 2.0
-[18:42:41] [Forge Version Check/INFO] [forge.VersionCheck]: [zawa] Found status: UP_TO_DATE Target: null
-[18:42:41] [Forge Version Check/INFO] [forge.VersionCheck]: [llibrary] Starting version check at https://gist.githubusercontent.com/Gegy/a6639456aeb8edd92cbf7cbfcf9d65d9/raw/llibrary_updates.json
-[18:42:41] [Forge Version Check/INFO] [forge.VersionCheck]: [llibrary] Found status: UP_TO_DATE Target: null
-[18:42:41] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[18:42:42] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
-[18:42:42] [Forge Version Check/INFO] [forge.VersionCheck]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
-[18:42:42] [Forge Version Check/INFO] [forge.VersionCheck]: [uteamcore] Found status: UP_TO_DATE Target: null
-[18:42:42] [Forge Version Check/INFO] [forge.VersionCheck]: [twilightforest] Starting version check at https://raw.githubusercontent.com/TeamTwilight/twilightforest/1.12.x/update.json
-[18:42:42] [Forge Version Check/INFO] [forge.VersionCheck]: [twilightforest] Found status: AHEAD Target: null
-[18:42:42] [Forge Version Check/INFO] [forge.VersionCheck]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[18:42:42] [Forge Version Check/INFO] [forge.VersionCheck]: [tombstone] Found status: OUTDATED Target: 4.7.5
-[18:42:42] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Baubles.
-[18:42:42] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Chisel.
-[18:42:42] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Forestry.
-[18:42:42] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Immersive Engineering.
-[18:42:42] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Just Enough Items.
-[18:42:42] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Tinkers' Construct.
-[18:42:42] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Thaumcraft.
-[18:42:42] [Server thread/INFO] [FML]: Applying holder lookups
-[18:42:42] [Server thread/INFO] [FML]: Holder lookups applied
-[18:42:42] [Server thread/INFO] [Spartan Shields]: Items Registered!
-[18:42:43] [Server thread/INFO] [Spartan Weaponry]: Registering 10 modded material based weapons
-[18:42:43] [Server thread/INFO] [Spartan Weaponry]: Adding weapons for materials: Copper, Tin, Bronze, Steel, Silver, Invar, Platinum, Electrum, Nickel, Lead
-[18:42:43] [Server thread/INFO] [Spartan Weaponry]: Items Registered!
-[18:42:43] [Server thread/INFO] [FML]: Applying holder lookups
-[18:42:43] [Server thread/INFO] [FML]: Holder lookups applied
-[18:42:43] [Server thread/INFO] [Spartan Weaponry]: Registering Enchantments!
-[18:42:43] [Server thread/INFO] [Spartan Weaponry]: Registering entities!
-[18:42:44] [Server thread/INFO] [FML]: Applying holder lookups
-[18:42:44] [Server thread/INFO] [FML]: Holder lookups applied
-[18:42:44] [Server thread/INFO] [FML]: Applying holder lookups
-[18:42:44] [Server thread/INFO] [FML]: Holder lookups applied
-[18:42:44] [Server thread/INFO] [FML]: Injecting itemstacks
-[18:42:44] [Server thread/INFO] [FML]: Itemstack injection complete
-[18:42:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[18:42:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[18:42:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[18:42:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[18:42:44] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[18:42:44] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:42:44] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[18:42:44] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:42:44] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:42:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `painted acacia slab`, expected `mowziesmobs`. This could be a intended override, but in most cases indicates a broken mod.
-[18:42:45] [Server thread/INFO] [Spartan Shields]: Recipes added!
-[18:42:45] [Server thread/INFO] [Spartan Weaponry]: Registering recipes for Tipped Bolts!
-[18:42:45] [Server thread/INFO] [Spartan Weaponry]: Recipes added!
-[18:42:45] [Server thread/INFO] [FML]: Applying holder lookups
-[18:42:45] [Server thread/INFO] [FML]: Holder lookups applied
-[18:42:45] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(2, 1) invalid, 1 smaller than 2
-[18:42:45] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(4, 1) invalid, 1 smaller than 4
-[18:42:45] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(10, 1) invalid, 1 smaller than 10
-[18:42:45] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(9, 1) invalid, 1 smaller than 9
-[18:42:45] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(3, 2) invalid, 2 smaller than 3
-[18:42:45] [Server thread/INFO] [Ice And Fire]: The watcher waits on the northern wall
-[18:42:45] [Server thread/INFO] [Ice And Fire]: A daughter picks up a warrior's sword
-[18:42:45] [Server thread/INFO] [Spartan Weaponry]: Registering OreDictionary entries
-[18:42:45] [Server thread/INFO] [Spartan Weaponry]: Attempting to add new advancement triggers...
-[18:42:45] [Server thread/INFO] [Spartan Weaponry]: New advancement triggers added successfully!
-[18:42:45] [Server thread/INFO] [FML]: Injecting itemstacks
-[18:42:45] [Server thread/INFO] [FML]: Itemstack injection complete
-[18:42:45] [Server thread/INFO] [Ice And Fire]: A brother bound to a love he must hide
-[18:42:45] [Server thread/INFO] [Ice And Fire]: The younger's armor is worn in the mind
-[18:42:45] [Server thread/INFO] [Ice And Fire]: A cold iron throne holds a boy barely grown
-[18:42:45] [Server thread/INFO] [Ice And Fire]: And now it is known
-[18:42:45] [Server thread/INFO] [Ice And Fire]: A claim to the prize, a crown laced in lies
-[18:42:45] [Server thread/INFO] [Ice And Fire]: You win or you die
-[18:42:45] [Server thread/INFO] [Ice And Fire]: Damn season 8 really sucked didn't it
-[18:42:45] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[18:42:45] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[18:42:45] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[18:42:45] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[18:42:45] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[18:42:45] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[18:42:45] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[18:42:45] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[18:42:45] [Server thread/WARN] [zawa]: Failed to write zawa data info file but we don't care.
-[18:42:45] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 20 mods
-[18:42:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[18:42:45] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[18:42:46] [Server thread/INFO] [FML]: Applying holder lookups
-[18:42:46] [Server thread/INFO] [FML]: Holder lookups applied
-[18:42:46] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@74159a2)
-[18:42:46] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 903 advancements
-[18:42:46] [Server thread/INFO] [twilightforest]: Loaded a world with the tfEnforcedProgression game rule not defined. Defining it.
-[18:42:46] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@74159a2)
-[18:42:46] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@74159a2)
-[18:42:46] [Server thread/INFO] [FML]: Loading dimension 7 (world) (net.minecraft.server.dedicated.DedicatedServer@74159a2)
-[18:42:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[18:42:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (1.926s)! For help, type "help" or "?"
-[18:42:47] [Server thread/INFO] [FML]: Unloading dimension -1
-[18:42:47] [Server thread/INFO] [FML]: Unloading dimension 1
-[18:42:47] [Server thread/INFO] [FML]: Unloading dimension 7
-[18:44:06] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
-[18:44:06] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 27 mods : minecraft@1.12.2,cyclopscore@1.5.0,usefulbackpacks@1.5.4.85,mowziesmobs@1.5.8,zawa@1.12.2-2.1.3,jei@4.16.1.1012,evilcraftcompat@1.0.0,spartanshields@1.5.5,mcp@9.42,journeymap@1.12.2-5.7.1,evilcraft@0.10.78,FML@8.0.99.99,tombstone@4.6.2,llibrary@1.7.20,uteamcore@2.2.5.375,spartanweaponry@1.6.1,grimoireofgaia@1.7.2,iceandfire@1.7.1,bookworm@1.12.2-2.5.2.1,tlauncher_custom_cape_skin@1.4,mowzies_wings@1.0.0,forge@14.23.5.2860,ruins@17.2,wings@1.1.6,twilightforest@3.11.1021,torohealthmod@1.12.2-11,chococraft@3.1.415.0
-[18:44:06] [Netty Epoll Server IO #2/INFO] [FML]: Rejecting connection CLIENT: Ice and Fire: Requires version 1.9.1 but client has 1.7.1.
-[18:44:06] [Netty Epoll Server IO #2/ERROR] [FML]: Network Disconnect: Server Mod rejections:
-Ice and Fire: Requires version 1.9.1 but client has 1.7.1.
-[18:44:06] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Davox lost connection: Server Mod rejections:
-Ice and Fire: Requires version 1.9.1 but client has 1.7.1.
-[18:44:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Davox left the game
-[18:46:12] [Netty Epoll Server IO #4/INFO] [FML]: Client protocol version 2
-[18:46:12] [Netty Epoll Server IO #4/INFO] [FML]: Client attempting to join with 27 mods : minecraft@1.12.2,cyclopscore@1.5.0,usefulbackpacks@1.5.4.85,mowziesmobs@1.5.8,zawa@1.12.2-2.1.3,jei@4.16.1.1012,evilcraftcompat@1.0.0,spartanshields@1.5.5,mcp@9.42,journeymap@1.12.2-5.7.1,evilcraft@0.10.78,FML@8.0.99.99,tombstone@4.6.2,llibrary@1.7.20,uteamcore@2.2.5.375,spartanweaponry@1.6.1,grimoireofgaia@1.7.2,iceandfire@1.9.1,bookworm@1.12.2-2.5.2.1,tlauncher_custom_cape_skin@1.4,mowzies_wings@1.0.0,forge@14.23.5.2860,ruins@17.2,wings@1.1.6,twilightforest@3.11.1021,torohealthmod@1.12.2-11,chococraft@3.1.415.0
-[18:46:13] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[18:46:13] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Davox[/127.185.165.113:48845] logged in with entity id 169 at (262.5, 62.0, 159.5)
-[18:46:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Davox joined the game
-[18:46:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Davox suffocated in a wall
-[18:46:22] [Server thread/INFO] [tombstone]: The last known grave of Davox is at location [name:Last Grave, x:262, y:69, z:158] in the dimension 0
-[18:46:22] [Server thread/INFO] [tombstone]: Davox has successfully been saved
-[18:47:09] [Server thread/WARN] [FML]: Ruins Mod loaded a new chunk [6, -9] in dimension 0 (overworld) while populating chunk [6, -8], causing cascading worldgen lag.
-[18:47:09] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:47:09] [Server thread/WARN] [FML]: Ruins Mod loaded a new chunk [7, -9] in dimension 0 (overworld) while populating chunk [7, -8], causing cascading worldgen lag.
-[18:47:09] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:47:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Davox: Set own game mode to Creative Mode]
-[18:47:28] [Server thread/WARN] [FML]: Ruins Mod loaded a new chunk [4, -2] in dimension 0 (overworld) while populating chunk [5, -2], causing cascading worldgen lag.
-[18:47:28] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:47:28] [Server thread/WARN] [FML]: Ruins Mod loaded a new chunk [3, -3] in dimension 0 (overworld) while populating chunk [4, -2], causing cascading worldgen lag.
-[18:47:28] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:47:28] [Server thread/WARN] [FML]: Ruins Mod loaded a new chunk [2, -5] in dimension 0 (overworld) while populating chunk [3, -3], causing cascading worldgen lag.
-[18:47:28] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:47:28] [Server thread/WARN] [FML]: Ruins Mod loaded a new chunk [2, -4] in dimension 0 (overworld) while populating chunk [3, -3], causing cascading worldgen lag.
-[18:47:28] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:47:28] [Server thread/WARN] [FML]: Ruins Mod loaded a new chunk [2, -3] in dimension 0 (overworld) while populating chunk [3, -3], causing cascading worldgen lag.
-[18:47:28] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:47:28] [Server thread/WARN] [FML]: Ruins Mod loaded a new chunk [3, -2] in dimension 0 (overworld) while populating chunk [4, -2], causing cascading worldgen lag.
-[18:47:28] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:47:28] [Server thread/WARN] [FML]: Ruins Mod loaded a new chunk [5, -3] in dimension 0 (overworld) while populating chunk [5, -2], causing cascading worldgen lag.
-[18:47:28] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:47:28] [Server thread/WARN] [FML]: Ruins Mod loaded a new chunk [4, -3] in dimension 0 (overworld) while populating chunk [5, -2], causing cascading worldgen lag.
-[18:47:28] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:47:28] [Server thread/WARN] [FML]: Ruins Mod loaded a new chunk [5, -4] in dimension 0 (overworld) while populating chunk [5, -2], causing cascading worldgen lag.
-[18:47:28] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:51:05] [Server thread/WARN] [FML]: Ruins Mod loaded a new chunk [6, -11] in dimension 0 (overworld) while populating chunk [7, -11], causing cascading worldgen lag.
-[18:51:05] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[18:52:17] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Davox lost connection: Disconnected
-[18:52:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Davox left the game
-[18:52:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
-[18:52:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[18:52:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[18:52:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[18:52:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
-[18:52:27] [Server thread/INFO] [FML]: Unloading dimension 0
-[18:52:27] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[18:52:27] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[18:52:27] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[19:00:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[19:00:31] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[19:00:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[19:00:31] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[19:00:31] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_462, running on Linux:amd64:6.8.0-1030-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[19:00:31] [main/INFO] [FML]: Searching /workspaces/server1/servidor_minecraft/./mods for mods
+[19:00:31] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in iceandfire-1.9.1-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[19:00:31] [main/WARN] [FML]: The coremod iceandfire (com.github.alexthe666.iceandfire.asm.IceAndFirePlugin) is not signed!
+[19:00:31] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from SpartanWeaponry-1.12.2-1.6.1.jar
+[19:00:31] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in wings-1.1.6-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[19:00:31] [main/WARN] [FML]: The coremod wings (me.paulf.wings.server.asm.plugin.WingsLoadingPlugin) is not signed!
+[19:00:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:00:31] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[19:00:31] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/server1/servidor_minecraft/./mods/SpartanWeaponry-1.12.2-1.6.1.jar Service=LaunchWrapper Env=SERVER
+[19:00:31] [main/WARN] [FML]: The coremod SpartanWeaponry-MixinLoader (com.oblivioussp.spartanweaponry.mixin.MixinLoader) is not signed!
+[19:00:31] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[19:00:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[19:00:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:00:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:00:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:00:32] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[19:00:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:00:32] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[19:00:32] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@2caf6912
+[19:00:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[19:00:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:00:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:00:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:00:33] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[19:00:33] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[19:00:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[19:00:33] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[19:00:33] [main/WARN] [LLibrary Core]: Failed to fetch hierarchy node for net.minecraft.nbt.NBTTagList. This may cause patch issues
+[19:00:33] [main/WARN] [LLibrary Core]: Failed to fetch hierarchy node for net.minecraft.entity.player.EntityPlayerMP. This may cause patch issues
+[19:00:33] [main/WARN] [LLibrary Core]: Failed to fetch hierarchy node for net.minecraft.entity.EntityLivingBase. This may cause patch issues
+[19:00:33] [main/WARN] [LLibrary Core]: Failed to fetch hierarchy node for net.minecraft.entity.Entity. This may cause patch issues
+[19:00:33] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[19:00:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[19:00:36] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[19:00:36] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[19:00:36] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[19:00:37] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[19:00:37] [Server thread/INFO] [FML]: Searching /workspaces/server1/servidor_minecraft/./mods for mods
+[19:00:37] [Server thread/INFO] [FML]: Disabling mod torohealthmod it is client side only.
+[19:00:38] [Server thread/WARN] [FML]: Mod wings is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.6
+[19:00:38] [Server thread/INFO] [FML]: Forge Mod Loader has identified 20 mods to load
+[19:00:38] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[19:00:38] [Server thread/WARN] [FML]: Missing English translation for ruins: assets/ruins/lang/en_us.lang
+[19:00:38] [Server thread/WARN] [FML]: Missing English translation for mowzies_wings: assets/mowzies_wings/lang/en_us.lang
+[19:00:38] [Server thread/WARN] [FML]: Mod bauble_wings has been disabled through configuration
+[19:00:38] [Server thread/WARN] [FML]: Mod mobends_wings has been disabled through configuration
+[19:00:38] [Server thread/INFO] [FML]: FML has found a non-mod file torohealth-1.12.2-11.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[19:00:38] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bookworm, iceandfire, mowziesmobs, ruins, spartanshields, spartanweaponry, tombstone, twilightforest, uteamcore, usefulbackpacks, mowzies_wings, wings, zawa, llibrary] at CLIENT
+[19:00:38] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bookworm, iceandfire, mowziesmobs, ruins, spartanshields, spartanweaponry, tombstone, twilightforest, uteamcore, usefulbackpacks, mowzies_wings, wings, zawa, llibrary] at SERVER
+[19:00:39] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[19:00:39] [Server thread/INFO] [FML]: Found 2046 ObjectHolder annotations
+[19:00:39] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[19:00:39] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[19:00:39] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[19:00:39] [Forge Version Check/INFO] [forge.VersionCheck]: [zawa] Starting version check at https://raw.githubusercontent.com/ZAWAMod/ZAWAMod.github.io/master/1122update.json
+[19:00:40] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `lectern`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[19:00:40] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `podium`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[19:00:40] [Forge Version Check/INFO] [forge.VersionCheck]: [zawa] Found status: UP_TO_DATE Target: null
+[19:00:40] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `egginice`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[19:00:40] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pixie_house`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[19:00:40] [Forge Version Check/INFO] [forge.VersionCheck]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
+[19:00:40] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `jar`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[19:00:40] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dread_portal`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[19:00:40] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dread_spawner`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[19:00:40] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dummygorgonheadidle`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[19:00:40] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dummygorgonheadactive`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[19:00:40] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `myrmexcocoon`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[19:00:40] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dragonforge`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[19:00:40] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dragonforgeinput`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[19:00:40] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dragonforgebrick`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[19:00:40] [Server thread/INFO] [Ice And Fire]: A raven flies from the north to the sea
+[19:00:40] [Server thread/INFO] [Ice And Fire]: A dragon whispers her name in the east
+[19:00:40] [Forge Version Check/INFO] [forge.VersionCheck]: [uteamcore] Found status: UP_TO_DATE Target: null
+[19:00:40] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[19:00:40] [Server thread/INFO] [Spartan Shields]: Starting up Spartan Shields!
+[19:00:40] [Server thread/INFO] [Spartan Weaponry]: Starting up Spartan Weaponry!
+[19:00:40] [Server thread/INFO] [Spartan Weaponry]: API: Loaded internal method handler. API functionality should work now!
+[19:00:40] [Server thread/INFO] [Spartan Weaponry]: Defined config version: 2.0 - Loaded config version: 2.0
+[19:00:40] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[19:00:40] [Forge Version Check/INFO] [forge.VersionCheck]: [llibrary] Starting version check at https://gist.githubusercontent.com/Gegy/a6639456aeb8edd92cbf7cbfcf9d65d9/raw/llibrary_updates.json
+[19:00:40] [Forge Version Check/INFO] [forge.VersionCheck]: [llibrary] Found status: UP_TO_DATE Target: null
+[19:00:40] [Forge Version Check/INFO] [forge.VersionCheck]: [twilightforest] Starting version check at https://raw.githubusercontent.com/TeamTwilight/twilightforest/1.12.x/update.json
+[19:00:40] [Forge Version Check/INFO] [forge.VersionCheck]: [twilightforest] Found status: AHEAD Target: null
+[19:00:40] [Forge Version Check/INFO] [forge.VersionCheck]: [usefulbackpacks] Starting version check at https://api.u-team.info/update/usefulbackpacks.json
+[19:00:40] [Forge Version Check/INFO] [forge.VersionCheck]: [usefulbackpacks] Found status: UP_TO_DATE Target: null
+[19:00:40] [Forge Version Check/INFO] [forge.VersionCheck]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[19:00:40] [Forge Version Check/INFO] [forge.VersionCheck]: [tombstone] Found status: OUTDATED Target: 4.7.5
+[19:00:41] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Baubles.
+[19:00:41] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Chisel.
+[19:00:41] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Forestry.
+[19:00:41] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Immersive Engineering.
+[19:00:41] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Just Enough Items.
+[19:00:41] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Tinkers' Construct.
+[19:00:41] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Thaumcraft.
+[19:00:41] [Server thread/INFO] [FML]: Applying holder lookups
+[19:00:41] [Server thread/INFO] [FML]: Holder lookups applied
+[19:00:41] [Server thread/INFO] [Spartan Shields]: Items Registered!
+[19:00:41] [Server thread/INFO] [Spartan Weaponry]: Registering 10 modded material based weapons
+[19:00:41] [Server thread/INFO] [Spartan Weaponry]: Adding weapons for materials: Copper, Tin, Bronze, Steel, Silver, Invar, Platinum, Electrum, Nickel, Lead
+[19:00:41] [Server thread/INFO] [Spartan Weaponry]: Items Registered!
+[19:00:41] [Server thread/INFO] [FML]: Applying holder lookups
+[19:00:41] [Server thread/INFO] [FML]: Holder lookups applied
+[19:00:41] [Server thread/INFO] [Spartan Weaponry]: Registering Enchantments!
+[19:00:42] [Server thread/INFO] [Spartan Weaponry]: Registering entities!
+[19:00:43] [Server thread/INFO] [FML]: Applying holder lookups
+[19:00:43] [Server thread/INFO] [FML]: Holder lookups applied
+[19:00:43] [Server thread/INFO] [FML]: Applying holder lookups
+[19:00:43] [Server thread/INFO] [FML]: Holder lookups applied
+[19:00:43] [Server thread/INFO] [FML]: Injecting itemstacks
+[19:00:43] [Server thread/INFO] [FML]: Itemstack injection complete
+[19:00:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[19:00:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[19:00:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[19:00:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[19:00:43] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[19:00:43] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:00:43] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[19:00:43] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:00:43] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:00:43] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `painted acacia slab`, expected `mowziesmobs`. This could be a intended override, but in most cases indicates a broken mod.
+[19:00:43] [Server thread/INFO] [Spartan Shields]: Recipes added!
+[19:00:43] [Server thread/INFO] [Spartan Weaponry]: Registering recipes for Tipped Bolts!
+[19:00:43] [Server thread/INFO] [Spartan Weaponry]: Recipes added!
+[19:00:43] [Server thread/INFO] [FML]: Applying holder lookups
+[19:00:43] [Server thread/INFO] [FML]: Holder lookups applied
+[19:00:43] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(2, 1) invalid, 1 smaller than 2
+[19:00:43] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(4, 1) invalid, 1 smaller than 4
+[19:00:43] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(10, 1) invalid, 1 smaller than 10
+[19:00:43] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(9, 1) invalid, 1 smaller than 9
+[19:00:43] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(3, 2) invalid, 2 smaller than 3
+[19:00:43] [Server thread/INFO] [Ice And Fire]: The watcher waits on the northern wall
+[19:00:43] [Server thread/INFO] [Ice And Fire]: A daughter picks up a warrior's sword
+[19:00:43] [Server thread/INFO] [Spartan Weaponry]: Registering OreDictionary entries
+[19:00:43] [Server thread/INFO] [Spartan Weaponry]: Attempting to add new advancement triggers...
+[19:00:43] [Server thread/INFO] [Spartan Weaponry]: New advancement triggers added successfully!
+[19:00:44] [Server thread/INFO] [FML]: Injecting itemstacks
+[19:00:44] [Server thread/INFO] [FML]: Itemstack injection complete
+[19:00:44] [Server thread/INFO] [Ice And Fire]: A brother bound to a love he must hide
+[19:00:44] [Server thread/INFO] [Ice And Fire]: The younger's armor is worn in the mind
+[19:00:44] [Server thread/INFO] [Ice And Fire]: A cold iron throne holds a boy barely grown
+[19:00:44] [Server thread/INFO] [Ice And Fire]: And now it is known
+[19:00:44] [Server thread/INFO] [Ice And Fire]: A claim to the prize, a crown laced in lies
+[19:00:44] [Server thread/INFO] [Ice And Fire]: You win or you die
+[19:00:44] [Server thread/INFO] [Ice And Fire]: Damn season 8 really sucked didn't it
+[19:00:44] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[19:00:44] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[19:00:44] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[19:00:44] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[19:00:44] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[19:00:44] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[19:00:44] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[19:00:44] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[19:00:44] [Server thread/WARN] [zawa]: Failed to write zawa data info file but we don't care.
+[19:00:44] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 20 mods
+[19:00:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[19:00:44] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[19:00:45] [Server thread/INFO] [FML]: Applying holder lookups
+[19:00:45] [Server thread/INFO] [FML]: Holder lookups applied
+[19:00:45] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@42d079d2)
+[19:00:45] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 903 advancements
+[19:00:45] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@42d079d2)
+[19:00:45] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@42d079d2)
+[19:00:45] [Server thread/INFO] [FML]: Loading dimension 7 (world) (net.minecraft.server.dedicated.DedicatedServer@42d079d2)
+[19:00:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[19:00:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 76%
+[19:00:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (2.230s)! For help, type "help" or "?"
+[19:00:47] [Server thread/INFO] [FML]: Unloading dimension -1
+[19:00:47] [Server thread/INFO] [FML]: Unloading dimension 1
+[19:00:47] [Server thread/INFO] [FML]: Unloading dimension 7
+[19:00:59] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
+[19:00:59] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 27 mods : minecraft@1.12.2,cyclopscore@1.5.0,usefulbackpacks@1.5.4.85,mowziesmobs@1.5.8,zawa@1.12.2-2.1.3,jei@4.16.1.1012,evilcraftcompat@1.0.0,spartanshields@1.5.5,mcp@9.42,journeymap@1.12.2-5.7.1,evilcraft@0.10.78,FML@8.0.99.99,tombstone@4.6.2,llibrary@1.7.20,uteamcore@2.2.5.375,spartanweaponry@1.6.1,grimoireofgaia@1.7.2,iceandfire@1.9.1,bookworm@1.12.2-2.5.2.1,tlauncher_custom_cape_skin@1.4,mowzies_wings@1.0.0,forge@14.23.5.2860,ruins@17.2,wings@1.1.6,twilightforest@3.11.1021,torohealthmod@1.12.2-11,chococraft@3.1.415.0
+[19:01:00] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[19:01:00] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Davox[/127.185.165.113:41159] logged in with entity id 220 at (272.7126677790434, 70.0, 125.94140842004308)
+[19:01:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Davox joined the game
+[19:01:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Davox has made the advancement [Draconic Evolution]
+[19:01:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Davox has made the advancement [Ice and Fire]
+[19:01:31] [Server thread/INFO] [STDOUT]: [atomicstryker.ruins.common.ChunkLoggerData:func_76184_a:24]: Ruins chunks logged: 105
+[19:02:04] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Davox lost connection: Disconnected
+[19:02:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Davox left the game
+[19:02:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
+[19:02:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[19:02:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[19:02:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[19:02:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[19:02:13] [Server thread/INFO] [FML]: Unloading dimension 0
+[19:02:13] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
