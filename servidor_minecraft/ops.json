@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "4285fcf2-d94e-3118-8bcc-2f1d9078b38d",
+    "name": "Davox",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
